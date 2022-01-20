@@ -123,7 +123,7 @@ html {
 body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
-  font-weight: 400;
+  font-weight: 500;
   font-family: proxima-nova, sans-serif;
   color: #222; }
 
@@ -391,6 +391,18 @@ hr {
   display: table;
   clear: both; }
 
+.socials {
+    margin-top: 50px;
+    letter-spacing: 1pt;
+}
+.socials img {
+    width: 25px;
+    margin: 0 10px;
+}
+.socials p {
+    margin-top: 5px;
+    cursor: pointer;
+}
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
